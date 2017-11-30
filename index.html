@@ -6,9 +6,26 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+    <header>
+      <div class="logo">
+        <img src="./css/resources/images/ic-logo.svg" alt="">
+        <div class="colmaracademy">
+          <li class="colmar">COLMAR</li>
+          <li>ACADEMY</li>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">On Campus</a></li>
+          <li><a href="#">Online</a></li>
+          <li><a href="#">For companies</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="section1"class="container">
       <div class="column1">
-        <img src="./css/resources/images/banner.jpg" alt="">
+        <img src="./css/resources/images/banner.jpg" alt="Students around a table studying">
       </div>
       <div class="column2">
         <div class="content">
@@ -18,25 +35,25 @@
           <div class="">
             <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit.</p>
           </div>
-          <div class="button">
-            <a href="#">Start Here</a>
-          </div>
+          <a class="button"href="#">Start Here</a>
         </div>
       </div>
     </div>
     <div id="section2"class="container">
       <div class="column1">
-        <img src="./css/resources/images/information-main.jpg" alt="">
-        <h2>It doesn't hurt to keep practicing</h2>
-        <p>"CSed tellus lacus, tincidunt at congue sit amet, dictum id lorem. Morbi malesuada orci dolor,
-          sed tempus urna maximus vitae. Donec non nibh id elit sollicitudin efficitur. Praesent bibendum
-          consectetur mauris, nec dapibus metus. Curabitur placerat sagittis turpis, ac euismod velit consectetur nec.
-           Pellentesque tristique"</p>
-        <span>Emanuel, Sr Strategist at Hiring.com</span>
+        <img src="./css/resources/images/information-main.jpg" alt="Man reading a book outdoors and smiling">
+        <div class="column1_content">
+          <h1>It doesn't hurt to keep practicing</h1>
+          <p>"CSed tellus lacus, tincidunt at congue sit amet, dictum id lorem. Morbi malesuada orci dolor,
+            sed tempus urna maximus vitae. Donec non nibh id elit sollicitudin efficitur. Praesent bibendum
+            consectetur mauris, nec dapibus metus. Curabitur placerat sagittis turpis, ac euismod velit consectetur nec.
+             Pellentesque tristique"</p>
+          <span>Emanuel, Sr Strategist at Hiring.com</span>
+        </div>
         </div>
         <div class="column2">
           <div class="section2_container">
-            <img src="./css/resources/images/information-orientation.jpg" alt="">
+            <img src="./css/resources/images/information-orientation.jpg" alt="A walkway with students">
             <div class="section2_content">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am- 3pm</p>
@@ -44,18 +61,18 @@
             </div>
           </div>
           <div class="section2_container">
-            <img src="./css/resources/images/information-campus.jpg" alt="">
+            <img src="./css/resources/images/information-campus.jpg" alt="A room with a picture of south america and students around">
             <div class="section2_content">
               <h3>Our Campus</h3>
-              <p>Tue 10/11 & Wed 10/12: 8am- 3pm</p>
+              <p>Find wich campus is close by you</p>
               <a href="">Read More</a>
             </div>
           </div>
-          <div class="section2_container">
-            <img src="./css/resources/images/information-guest-lecture.jpg" alt="">
+          <div id="guest_lecture"class="section2_container">
+            <img src="./css/resources/images/information-guest-lecture.jpg" alt="An older man with spectacles">
             <div class="section2_content">
               <h3>Our guest lecture</h3>
-              <p>Tue 10/11 & Wed 10/12: 8am- 3pm</p>
+              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
               <a href="">Read More</a>
             </div>
           </div>
@@ -67,45 +84,81 @@
       <div class="section3_container">
         <div class="row">
           <div class="section3_content">
-            <img src="./css/resources/images/course-software.jpg" alt="">
+            <img src="./css/resources/images/course-software.jpg" alt="Two computer">
             <h2>Software engineering</h2>
             <p>COURSES</p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
           <div class="section3_content">
-            <img src="./css/resources/images/course-software.jpg" alt="">
-            <h2>Software engineering</h2>
-            <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <img src="./css/resources/images/course-computer-art.jpg" alt="A hand holding a cellphone">
+            <div class="box">
+              <h2>Computer art</h2>
+              <p>COURSES</p>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual effects, Computer Animation</p>
+            </div>
           </div>
           <div class="section3_content">
-            <img src="./css/resources/images/course-software.jpg" alt="">
-            <h2>Software engineering</h2>
+            <img src="./css/resources/images/course-design.jpg" alt="A student with an older generation camera">
+            <h2>Design</h2>
             <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <p>User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
         <div class="row">
           <div class="section3_content">
-            <img src="./css/resources/images/course-software.jpg" alt="">
-            <h2>Software engineering</h2>
+            <img src="./css/resources/images/course-data.jpg" alt="A laptop with a graph">
+            <h2>Data</h2>
             <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <p>Data Science, Big Datam SQL, Data Visualization</p>
           </div>
           <div class="section3_content">
-            <img src="./css/resources/images/course-software.jpg" alt="">
-            <h2>Software engineering</h2>
+            <img src="./css/resources/images/course-business.jpg" alt="A chess game">
+            <h2>Business</h2>
             <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <p>Product Development, Business Development, Startup</p>
           </div>
           <div class="section3_content">
-            <img src="./css/resources/images/course-software.jpg" alt="">
-            <h2>Software engineering</h2>
+            <img src="./css/resources/images/course-marketing.jpg" alt="An apple watch being used">
+            <h2>Marketing</h2>
             <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
         </div>
       </div>
       </div>
     </div>
+    <div id="section4"class="container">
+      <div class="column1">
+        <video src="./css/resources/videos/thesis.mp4" autoplay poster="posterimage.jpg"></video>
+        <h2>Reimagine urban</h2>
+        <p>Curabitur vitae libero urna maximus vitae. Donec non nibh id elit sollicitudin efficitur. Praesent bibendum
+        consectetur mauris, nec dapibus metus. Curabitur placerat sagittis turpis, ac euismod velit consectetur nec.
+         Pellentesque tristiqu </p>
+        </div>
+        <div class="column2">
+          <div class="section2_container">
+            <img src="./css/resources/images/thesis-fisma.jpg" alt="Papers and prototype drawings">
+            <div class="section2_content">
+              <h3>Fisma: Design and Prototype</h3>
+              <p>Desginer shocase of new prototype product</p>
+            </div>
+          </div>
+          <div class="section2_container">
+            <img src="./css/resources/images/thesis-now-and-then.jpg" alt="A picture of the Chrysler Building">
+            <div class="section2_content">
+              <h3>Now and thehn</h3>
+              <p>Research study about New York</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&#169;2016 Colmar Academy. All rights reserved</p>
+      <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
